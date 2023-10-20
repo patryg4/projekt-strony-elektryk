@@ -1,0 +1,319 @@
+html 
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: "Quicksand", sans-serif;
+    cursor: url("source/pocisk1.png"), auto;
+}
+
+video 
+{
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo
+{
+    width: 225px;
+    display: block;
+    margin: auto;
+}
+
+.logo:hover
+{
+    opacity: 96%;
+}
+
+header
+{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 3px;
+}
+
+main
+{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 90%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(0, 0, 0);
+    text-align: justify;
+    position: relative;
+    border-radius: 3px;
+}
+
+footer
+{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px rgb(0, 0, 0);
+    position: relative;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+p
+{
+    margin: 15px;
+}
+
+h4
+{
+    margin: 15px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h3
+{
+    margin: 20px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+h2
+{
+    margin: 15px;
+    text-align: left;
+    font-size: 36px;
+}
+
+a
+{
+    cursor: url("source/pocisk2.png"), auto;
+    text-decoration: none;
+}
+
+hr
+{
+    width: 75%;
+    opacity: 50%;
+}
+
+a:hover
+{
+    font-weight: bold;
+}
+
+main .battle_div
+{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.battle_div
+{
+    margin-bottom: 15px;
+}
+
+.battle
+{
+    background-size: cover;
+	height: 200px;
+    width: 220px;
+    margin: 10px;
+    line-height: 350px;
+    box-shadow: 4px 4px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    border-radius: 3px;
+    font-weight: 600;
+    float: left;
+}
+
+.battle:hover
+{
+    font-style: italic;
+    transform: scale(1.1);
+}
+
+.battle_act
+{
+    margin: 15px;
+    overflow: hidden;
+    color:rgb(255, 255, 255);
+    background-image: url("source/hover_color.png");
+    background-size: cover;
+    box-shadow: 4px 4px rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    border-radius: 3px;
+    cursor: url("source/pocisk2.png"), auto;
+}
+
+.battle_act:hover
+{
+    opacity: 98%;
+}
+
+.navbar 
+{
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 30px;
+    width: 90%;
+    overflow: hidden;
+    background-image: url("source/hover_color.png");
+    background-size: cover;
+    box-shadow: 4px 4px rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    position: relative;
+    border-radius: 3px;
+}
+  
+.navbar a 
+{
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.theme_picker
+{
+    display:block;
+    height: 30px; 
+    float: right; 
+    margin-right: 12px; 
+    margin-top: 9px;
+    cursor: url("source/pocisk2.png"), auto;
+}
+
+.theme_picker:hover
+{
+    transform: scale(1.1);
+}
+
+#btn_top_arrow 
+{
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+}
+
+.btn_top_arrow
+{
+    height: 110px;
+}
+
+#btn_top_arrow:hover
+{
+    opacity: 90%;
+    transform: scale(1.1);
+}
+
+.kursk
+{
+    background-image: url("source/kursk_battle_min.jpg"); 
+}
+
+.alamein
+{
+    background-image: url("source/el_alamein_battle_min.jpg");
+}
+
+.falaise
+{
+    background-image: url("source/falaise_battle_min.jpg");
+}
+
+.hannut
+{
+    background-image: url("source/hannut_battle_min.jpg");
+}
+
+.overlord
+{
+    background-image: url("source/overlord_battle_min.jpg");
+}
+
+.rosienie
+{
+    background-image: url("source/rosienie_battle_min.jpg");
+}
+
+.tobruk
+{
+    background-image: url("source/tobruk_battle_min.jpg");
+}
+
+
+.battle_hid
+{
+	display: none;
+}
+
+.battle_img
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 350px;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+
+.battle_img:hover
+{
+    height: 450px;
+    border-style: none;
+}
+
+.social_media img
+{
+    width: 50px;
+    margin: 10px;
+}
+
+.social_media a:hover img
+{
+    opacity: 90%;
+    transform: scale(1.2);
+}
+
+.init_anim
+{
+    animation: animatetop 2.6s
+}
+
+@keyframes animatetop
+{
+    from
+    {
+        top: -350px;
+        opacity: 0
+    } 
+    to
+    {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.dark_mode
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: none;
+}
